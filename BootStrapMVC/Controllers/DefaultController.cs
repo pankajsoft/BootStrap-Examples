@@ -9,6 +9,7 @@ namespace BootStrapMVC.Controllers
     public class DefaultController : Controller
     {
         // GET: Default
+        [Route("Home")]
         public ActionResult Index()
         {
             return View();
